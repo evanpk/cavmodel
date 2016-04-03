@@ -1,0 +1,11 @@
+Package: cavmodel
+Title: Package for calculating risk of cardiac allograft vasculopathy (CAV)
+Version: 1.0
+Authors@R: "Evan Kransdorf <evan.kransdorf@cshs.org> [aut,cre]"
+Description: This package contains data for calculating risk of CAV using a
+    regularized (penalized) Cox proportional hazards model implemented using Glmnet.
+Depends:
+    R (>= 3.2.3)
+License: GPL-3
+LazyData: true
+RoxygenNote: 5.0.1
